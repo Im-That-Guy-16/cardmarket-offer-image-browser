@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cardmarket Offer Image Browser</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #10131a;
+        color: #eef2ff;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+      }
+
+      main {
+        width: min(680px, calc(100vw - 32px));
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 7vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      p {
+        max-width: 58ch;
+        color: #cbd5e1;
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        margin-top: 18px;
+        padding: 0 18px;
+        border: 1px solid #93c5fd;
+        border-radius: 6px;
+        color: #08111f;
+        background: #93c5fd;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      a.button:hover {
+        background: #bfdbfe;
+      }
+
+      code {
+        color: #bfdbfe;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Cardmarket Offer Image Browser</h1>
+      <p>
+        Adds a full-page cached carousel modal with card images, offer details, quantity, and basket controls to Cardmarket Magic seller offer tables.
+        It leaves the original rows alone. Install it with Tampermonkey or Violentmonkey, then open a seller's Singles offers page.
+      </p>
+      <a class="button" href="https://gitlab.com/Prism_16/cardmarket-offer-image-browser/-/raw/main/outputs/cardmarket-offer-image-browser.user.js">Install userscript</a>
+      <p>
+        Matches <code>cardmarket.com/*/Magic/Users/*/Offers/Singles*</code>.
+      </p>
+    </main>
+  </body>
+</html>

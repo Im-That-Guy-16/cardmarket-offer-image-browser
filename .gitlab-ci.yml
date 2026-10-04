@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - cp outputs/cardmarket-offer-image-browser.user.js public/cardmarket-offer-image-browser.user.js
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
