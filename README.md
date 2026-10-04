@@ -31,7 +31,7 @@ in a filtered offer list without opening each product page.
 2. Open the raw userscript URL:
 
    ```text
-   https://gitlab.com/Prism_16/cardmarket-offer-image-browser/-/raw/main/outputs/cardmarket-offer-image-browser.user.js
+   https://raw.githubusercontent.com/Im-That-Guy-16/cardmarket-offer-image-browser/main/outputs/cardmarket-offer-image-browser.user.js
    ```
 
 3. Confirm the install in your manager.

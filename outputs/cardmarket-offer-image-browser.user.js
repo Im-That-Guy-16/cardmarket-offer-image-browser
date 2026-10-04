@@ -5,8 +5,8 @@
 // @description  Adds a full-page cached carousel modal with card images and offer details to Cardmarket seller offer pages.
 // @author       You
 // @match        https://www.cardmarket.com/*/Magic/Users/*/Offers/Singles*
-// @downloadURL  https://gitlab.com/Prism_16/cardmarket-offer-image-browser/-/raw/main/outputs/cardmarket-offer-image-browser.user.js
-// @updateURL    https://gitlab.com/Prism_16/cardmarket-offer-image-browser/-/raw/main/outputs/cardmarket-offer-image-browser.user.js
+// @downloadURL  https://raw.githubusercontent.com/Im-That-Guy-16/cardmarket-offer-image-browser/main/outputs/cardmarket-offer-image-browser.user.js
+// @updateURL    https://raw.githubusercontent.com/Im-That-Guy-16/cardmarket-offer-image-browser/main/outputs/cardmarket-offer-image-browser.user.js
 // @run-at       document-idle
 // @grant        GM_addStyle
 // ==/UserScript==
