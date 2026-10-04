@@ -1,54 +1,46 @@
-<h1 align="center">Cardmarket Offer Image Browser</h1>
-
-<p align="center"><em>Browse a seller's card images in a carousel without leaving the offer list.</em></p>
-
 <p align="center">
-  <img alt="Type" src="https://img.shields.io/badge/Type-Userscript-6E40C9?style=for-the-badge">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img alt="Tampermonkey" src="https://img.shields.io/badge/Tampermonkey-Ready-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white">
-  <img alt="Violentmonkey" src="https://img.shields.io/badge/Violentmonkey-Ready-2F4F4F?style=for-the-badge">
+  <img src="brand/readme-banner.svg" alt="CSS and userscript package banner" width="100%">
 </p>
 
----
+<p align="center">
+  <img alt="Type" src="https://img.shields.io/badge/Type-CSS%20%2B%20Userscript-111827?style=for-the-badge">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Visibility" src="https://img.shields.io/badge/Visibility-Public-22C55E?style=for-the-badge&logo=github&logoColor=white">
+</p>
 
-## Overview
+# CSS & Userscript Package
 
-A userscript for Cardmarket seller offer pages. It leaves the existing offer rows
-untouched and adds an image carousel on top, so you can flick through every card
-in a filtered offer list without opening each product page.
+A public stylesheet and userscript package maintained for browser customization.
 
-## Features
+## Highlights
 
-- Card-image carousel modal with previous/next controls.
-- Caches every pagination page for the current filter and sort before opening.
-- Quantity and add-to-basket controls inside the modal.
-- Left and right arrow keys move between cards when no form field is focused.
-- Leaves the original offer table entirely intact.
+- Userscript files with manager-friendly update metadata.
+- Public GitHub Pages delivery for direct installation links.
+- Clean GitHub-only links with no legacy host references.
 
 ## Install
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
-2. Open the raw userscript URL:
+Use the GitHub repository homepage link to open the hosted package page.
 
-   ```text
-   https://raw.githubusercontent.com/Im-That-Guy-16/cardmarket-offer-image-browser/main/outputs/cardmarket-offer-image-browser.user.js
-   ```
+Use a userstyle manager for stylesheet files and a userscript manager such as Tampermonkey or Violentmonkey for `.user.js` files.
 
-3. Confirm the install in your manager.
+## Published Assets
 
-## Usage
+- No stylesheet entry point is currently published.
+- Userscripts are available from the repository and GitHub Pages host.
+- The repo homepage points at the GitHub Pages deployment.
 
-Click the camera icon in any offer row, or the **Card images** button in the
-bottom-right corner. The page dims while pages are cached, then the modal lists
-every card found.
+## Repository Map
 
-## Supported pages
+- `brand/` - project assets and source files.
+- `public/` - project assets and source files.
 
-```text
-https://www.cardmarket.com/*/Magic/Users/*/Offers/Singles*
-```
+## Maintenance
 
-## Notes
+- Keep install and update URLs on GitHub or GitHub Pages.
+- Avoid naming target communities or private destinations in public-facing docs.
+- Check userscript metadata whenever files move.
 
-- Images are fetched from the matching Cardmarket product pages.
-- The script only changes your browser view. It does not buy cards or submit forms.
+## License
+
+See [LICENSE](LICENSE) if present in this repository.
